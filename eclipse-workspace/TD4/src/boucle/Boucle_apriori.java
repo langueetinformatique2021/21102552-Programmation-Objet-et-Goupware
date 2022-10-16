@@ -13,7 +13,7 @@ public class Boucle_apriori {
 			while (i1<i2) {
 				if(c1!=c2) {
 					flag = false;
-					System.out.println(flag);
+			 		System.out.println(flag);
 				}
 			
 					i1++;

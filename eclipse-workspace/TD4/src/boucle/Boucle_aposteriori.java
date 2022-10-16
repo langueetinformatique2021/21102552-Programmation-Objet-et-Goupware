@@ -8,7 +8,7 @@ public class Boucle_aposteriori {
 		char c1 =s1.charAt(i1);
 		char c2 =s2.charAt(i2);
 		boolean flag = false;
-		
+		 
 		if(s1.length() == s2.length()) {
 			do {
 				i1++;

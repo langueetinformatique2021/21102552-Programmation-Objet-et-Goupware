@@ -14,7 +14,8 @@ public class mediane2 {
 		total.add(p4);
 		total.add(p5);
 		
-		double p6 = median(total);
+		double temp= median(total);
+		int p6=(int)temp;
 		System.out.println(p6);
 
 	}
