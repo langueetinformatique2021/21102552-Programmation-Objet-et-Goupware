@@ -1,6 +1,14 @@
 package iteration;
-
+/***
+ * 
+ * @author shailynnxie
+ *
+ */
 public class ex1 {
+	/***
+	 * 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		String[] prenoms= {"Christian", "Karen","Victoria","Agatha","Philippe","Djamé"};
 		int imin=0;

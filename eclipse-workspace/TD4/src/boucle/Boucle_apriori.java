@@ -1,7 +1,16 @@
 package boucle;
-
+/***
+ * 
+ * @author shailynnxie
+ *
+ */
 public class Boucle_apriori {
+	/***
+	 * 
+	 * @param args
+	 */
 	public static void main(String[] args) {
+
 
 		String s1 = "azerty", s2 = "ytreza";
 		int i1 = 0, i2 = s2.length() - 1;

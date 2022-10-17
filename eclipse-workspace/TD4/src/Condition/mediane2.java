@@ -3,8 +3,16 @@ package Condition;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-
+/***
+ * 
+ * @author shailynnxie
+ *
+ */
 public class mediane2 {
+	/***
+	 * 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		int p1 = 10, p2 = 9, p3 = -1, p4 = 4, p5 = 8;
 		List<Integer> total = new ArrayList<Integer>();

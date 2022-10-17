@@ -1,6 +1,14 @@
 package boucle;
-
+/***
+ * 
+ * @author shailynnxie
+ *
+ */
 public class Boucle_aposteriori {
+	/***
+	 * 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 
 		String s1 = "azerty", s2 = "ytreza";
