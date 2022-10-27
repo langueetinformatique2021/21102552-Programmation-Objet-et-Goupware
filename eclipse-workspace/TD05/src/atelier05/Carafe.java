@@ -31,5 +31,4 @@ public class Carafe {
 	public int capacite() {
 		return capacite_;
 	}
-	public static void Transvaser()
 }
