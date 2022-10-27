@@ -5,5 +5,6 @@
  * @author shailynnxie
  *
  */
-module TD4 {
+module TD5 {
+	requires java.desktop;
 }
