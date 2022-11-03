@@ -1,33 +1,28 @@
 package atelier06;
-/***
- * 
- * @author shailynnxie
- *
- */
-public class Chat extends Félin {
-	/***
-	 * 
-	 * @param type
-	 */
-	public Chat(String type) {
-		super(type);
+
+public class Chat extends Félin implements Domesticable {
+	
+	private String nom;
+	
+	public Chat() { 
+		super("chats");
 	}
-	public interface Domesticable {
-		String nom = null;
-		
-		/** Domestiquer un animal et lui donner un nom
-		* @param nom nom de l'animal */
-		public default  void domestiquer(String nom) {
+
+	@Override
+	public void domestiquer(String nom) {
 		domestique = true;
-		nom=this.nom();
-		}
-		
-		/** Rend le nom de l'animal
-		* @return nom de l'animal */
-		public default String nom() {
-			return nom;
-
-		}
+		this.nom = nom;
 	}
-}
 
+	@Override
+	public String nom() {
+		return this.nom;
+	}
+	
+	public void crie() {
+		if (domestique == false) super.crie();
+		else 
+			System.out.println("Je miaule et je m'appelle "  + this.nom());
+	}
+
+}
