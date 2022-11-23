@@ -31,5 +31,14 @@ public class Cercle extends FigureMetrique implements Comparable<Cercle>{
 		System.out.printf("Le petrimetre du cercle: "+this.perimetre()+'\n');
 
     }
+	public void compare(Cercle p2) {
+		
+		if (this.compareTo(p2) > 0) 
+			System.out.println("Le circle 1 est plus grand que circle 2 ");
+		else  if  (this.compareTo(p2) ==  0) 
+			System.out.println( "Le circle 1 et le perimetre de circle 2 sont égale"); 
+		else System.out.println( "Le circle 2 est plus grand que circle 1 ");
+		
+	}
 }
 	
