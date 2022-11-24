@@ -7,7 +7,9 @@ public class Division2 {
 		int i = 1000, j;
 		do {i--; j = 1 / i;} while (true);
 		} catch (ArithmeticException e){
-			System.out.println("Division par 0 !");
+			System.out.println("Got a Exception：" + e.getMessage());
+			 e.printStackTrace();
+			 throw e;  
 		}
 		
 	}
