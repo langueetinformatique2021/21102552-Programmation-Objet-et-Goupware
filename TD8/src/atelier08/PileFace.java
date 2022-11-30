@@ -2,7 +2,7 @@ package atelier08;
 
 public class PileFace {
 	public static void main(String[] args) {
-		Aleat n = new Aleat(7);
+		Aleat n = new Aleat(2);
 		
 		int i=0,j=0,pile=0,face=0;
 		double somme = 1000.0;
