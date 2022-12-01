@@ -1,8 +1,12 @@
 package atelier09;
 
 import java.io.*;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipOutputStream;
 
 public class copy{
+    private static final int BUFFER_SIZE = 2 * 1024;
+
 	@SuppressWarnings("unused")
 	private static void copyFileUsingFileStreams(File source, File dest)
 	        throws IOException {    
@@ -23,5 +27,5 @@ public class copy{
 	}
 
 
-
+	
 }
