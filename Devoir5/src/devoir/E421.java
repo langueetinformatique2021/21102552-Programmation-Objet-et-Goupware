@@ -21,7 +21,7 @@ public class E421 extends Exception {
 		/*le cas 421 dans l'ordre*/
 		super("421 dans l'ordre \nNom du lanceur : " + nom +tire.toString());
 	}
-	
+
 
 
 }
