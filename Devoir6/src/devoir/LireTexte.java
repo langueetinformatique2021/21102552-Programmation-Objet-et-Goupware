@@ -58,10 +58,7 @@ public class LireTexte {
 		 }
 
 	}
-	
-	
 
-	
 	
 	/** Lecture mot à mot du fichier 
 	 * @return prochain mot
